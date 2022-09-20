@@ -1,0 +1,55 @@
+html {
+  font-size: 100%;
+}
+
+.section {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 2rem 0rem;
+  color: white;
+}
+
+header , .c1 {
+  margin-bottom: 1.2rem;
+}
+
+.content {
+  width: calc(66.66% - 1rem);
+  margin-right: 1rem;
+  display: inline-block;
+}
+.content .box {
+  height: 200px;
+  background: #406d6e;
+  margin: .5rem;
+  float: left;
+  width: calc(33.33% - 1rem);
+}
+
+.sidebar {
+  width: 33.33%;
+  display: inline-block;
+  vertical-align: top;
+}
+.about {
+    float:right;
+    width: calc(33.33% - 1rem);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.contact {
+    float: left;
+    width: calc(66.66% - 1rem);
+    margin-right: 1rem ;
+    margin-bottom: 1rem;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
